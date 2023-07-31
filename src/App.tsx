@@ -1,10 +1,11 @@
 import './App.css'
+import { TextAnalyzerTool } from './pages/TextAnalyzerTool'
 
 function App() {
 
   return (
     <>
-      <p>React Coding Challenge</p>
+      <TextAnalyzerTool/>
     </>
   )
 }
