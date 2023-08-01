@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 
-interface ITextAnalyzer{
+interface ITextAnalyser{
     word:number,
     character:number
     // sentence:number
 }
 
-export const TextAnalyzerTool = () => {
+export const TextAnalyserTool = () => {
   const [inputText, setInputText] = useState<string>("");
-  const [result, setResult] = useState<ITextAnalyzer>({
+  const [result, setResult] = useState<ITextAnalyser>({
     word: 0,
     character: 0,
     // sentence: 0
@@ -36,7 +36,7 @@ export const TextAnalyzerTool = () => {
 
   return (
     <div>
-      <h1>Text Analyzer Tool</h1>
+      <h1>Text AnalySer Tool</h1>
       <div className="flex justify-between items-center flex-wrap">
         <p>Character: {result?.character}</p>
         <p>Word: {result?.word}</p>

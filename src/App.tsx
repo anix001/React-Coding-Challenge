@@ -1,11 +1,11 @@
 import './App.css'
-import { TextAnalyzerTool } from './pages/TextAnalyzerTool'
+import { TextAnalyserTool } from './pages/TextAnalyserTool'
 
 function App() {
 
   return (
     <>
-      <TextAnalyzerTool/>
+      <TextAnalyserTool/>
     </>
   )
 }
